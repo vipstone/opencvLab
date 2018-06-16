@@ -16,9 +16,9 @@
 # 准备工作 #
 在开始之前先要安装keras和tensorflow，在安装模块之前先要把pip的数据源换成国内的，这样能大大提高安装速度。
 
-点击查看：[pip/pip3更换国内源](doc/pipChange.md)
+点击查看：[pip/pip3更换国内源](pipChange.md)
 
-OpenCV添加文字默认情况是乱码的，需要手动转换一下，点击查看：[OpenCV添加中文](doc/chinese.md)
+OpenCV添加文字默认情况是乱码的，需要手动转换一下，点击查看：[OpenCV添加中文](chinese.md)
 
 # 开始安装 #
 
@@ -27,7 +27,7 @@ OpenCV添加文字默认情况是乱码的，需要手动转换一下，点击�
 安装tensorflow使用命令：pip3 install tensorflow
 
 # 编码部分 #
-结合之前[图片人脸检测（OpenCV版）](doc/detectionOpenCV.md)的项目，我们使用OpenCV先识别到人脸，然后在通过keras识别性别，具体代码如下：
+结合之前[图片人脸检测（OpenCV版）](detectionOpenCV.md)的项目，我们使用OpenCV先识别到人脸，然后在通过keras识别性别，具体代码如下：
 ```
 #coding=utf-8
 #性别识别
