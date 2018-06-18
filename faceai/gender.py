@@ -6,16 +6,16 @@ from keras.models import load_model
 import numpy as np
 import chineseText
 
-img = cv2.imread("img/gather.png")
+img = cv2.imread("E:\\Code\\Python\\img\\gather_2.jpg")
 face_classifier = cv2.CascadeClassifier(
-    "C:\Python36\Lib\site-packages\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
+    "F:\\Python3.6.5\\Lib\\site-packages\\opencv-master\\data\\haarcascades\\haarcascade_frontalface_default.xml"
 )
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_classifier.detectMultiScale(
     gray, scaleFactor=1.2, minNeighbors=3, minSize=(140, 140))
 
 gender_classifier = load_model(
-    "classifier/gender_models/simple_CNN.81-0.96.hdf5")
+    "E:\\Github\\faceai\\faceai\\classifier\\gender_models\\simple_CNN.81-0.96.hdf5")
 gender_labels = {0: '女', 1: '男'}
 color = (255, 255, 255)
 

@@ -9,7 +9,7 @@ import datetime
 
 startTime = datetime.datetime.now()
 emotion_classifier = load_model(
-    'classifier/emotion_models/simple_CNN.530-0.65.hdf5')
+    'E:\\Github\\faceai\\faceai\\classifier\\emotion_models\\simple_CNN.530-0.65.hdf5')
 endTime = datetime.datetime.now()
 print(endTime - startTime)
 
@@ -23,9 +23,9 @@ emotion_labels = {
     6: '平静'
 }
 
-img = cv2.imread("img/emotion/emotion.png")
+img = cv2.imread("E:\\Github\\faceai\\faceai\\img\\emotion\\emotion.png")
 face_classifier = cv2.CascadeClassifier(
-    "C:\Python36\Lib\site-packages\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
+    "F:\\Python3.6.5\\Lib\\site-packages\\opencv-master\\data\\haarcascades\\haarcascade_frontalface_default.xml"
 )
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_classifier.detectMultiScale(
