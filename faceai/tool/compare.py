@@ -19,7 +19,7 @@ def compare(vectors, vector):
     distances = []
     for v in vectors:
         distances.append(distance(v, vector))
-    return np.argsort(distances)
+    return np.argsort(distances), distances
 
 
 if __name__ == '__main__':
