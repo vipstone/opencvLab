@@ -42,5 +42,4 @@ def get_images_data(train_path, image_flag=cv2.IMREAD_COLOR):
 
 
 if __name__ == '__main__':
-    train_data = get_images_data("../../images/train")
-    print(train_data)
+    pass

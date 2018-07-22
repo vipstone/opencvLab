@@ -14,3 +14,7 @@ def load(file_name):
 def save(data, file_name):
     with open(file_name, "wb") as fs:
         pickle.dump(data, fs)
+
+
+if __name__ == '__main__':
+    pass

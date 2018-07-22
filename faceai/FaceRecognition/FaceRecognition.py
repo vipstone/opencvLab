@@ -1,6 +1,4 @@
 import dlib
-import cv2
-import numpy
 import sys
 sys.path.append("..")
 from tool import compare, imtool, save_load
@@ -70,24 +68,27 @@ class FaceRecognition:
 
 
 if __name__ == '__main__':
-    import sys
-    sys.path.append("..")
     from tool import file
+    import argparse
 
-    recognition_path= "../dlib_model/dlib_face_recognition_resnet_model_v1.dat"
-    shape_path = "../dlib_model/shape_predictor_5_face_landmarks.dat"
+    parse = argparse.ArgumentParser()
+    parse.add_argument("dlib_face_path", help="Please provide the dlib_face_recognition_model path, you can download it from http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2 and extract it.")
+    parse.add_argument("dlib_shape_path", help="Please provide the dlib_shape_detector_model path, you can download it from http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2 and extract it.")
+    parse.add_argument("train_path", help="Please provide the training images folder path.")
+    parse.add_argument("test_path", help="Please provide the testing images folder path.")
+    args = parse.parse_args()
 
-    train_data = file.get_images_data("../../images/train")
-    test_data = file.get_images_data("../../images/test")
+    recognition_path = args.dlib_face_path #"../dlib_model/dlib_face_recognition_resnet_model_v1.dat"
+    shape_path = args.dlib_shape_path #"../dlib_model/shape_predictor_5_face_landmarks.dat"
+    train_data = file.get_images_data(args.train_path) #("../../images/train")
+    test_data = file.get_images_data(args.test_path) #("../../images/test")
 
     face = FaceRecognition(shape_path, recognition_path)
-    face.load("param.txt")
-    # face.train(d, is_debug=True)
-    # face.save("param.txt")
+    face.train(train_data, is_debug=True)
 
     for data in test_data:
         for image in data.get("data"):
-            for info in face.predict(image):
-                imtool.put_text(image, info[0] if info[0] is not None else "Unknown", info[1])
-                imtool.draw_rect(image, info[1])
+            for label, bounds in face.predict(image):
+                imtool.put_text(image, label if label is not None else "Unknown", bounds)
+                imtool.draw_rect(image, bounds)
                 imtool.show_image(image, width=400)

@@ -28,7 +28,7 @@ def resize(img, width, height, interpolation=cv2.INTER_AREA):
 
 
 def draw_rect(img, rect, color=(0, 255, 0), line_width=1):
-    cv2.rectangle(img, rect[:2], rect[2:4], color, line_width)
+    cv2.rectangle(img, rect[:2], rect[2:], color, line_width)
 
 
 def put_text(img, text, rect, color=(0, 255, 0), thickness=0.8):
@@ -36,7 +36,4 @@ def put_text(img, text, rect, color=(0, 255, 0), thickness=0.8):
 
 
 if __name__ == '__main__':
-    image = cv2.imread("../../images/train/baby/2.jpg")
-    draw_rect(image, (100, 100, 300, 300))
-    put_text(image, "baby", (100, 100, 300, 300))
-    show_image(image, width=500)
+    pass

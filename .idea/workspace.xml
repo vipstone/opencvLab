@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="026b53f3-1ec8-4656-939c-e1aff660d50e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/faceRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/faceRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/face_recognition/FaceRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/FaceRecognition/FaceRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/face_recognition/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/FaceRecognition/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/face_recognition/param.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/grabCut.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/grabCut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faceai/tool/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/tool/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/tool/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/tool/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/tool/imtool.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/tool/imtool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceai/tool/save_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceai/tool/save_load.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,60 +22,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/faceai$compare.coverage" NAME="compare Coverage Results" MODIFIED="1531640787693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
     <SUITE FILE_PATH="coverage/faceai$test.coverage" NAME="test Coverage Results" MODIFIED="1531035341347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai" />
     <SUITE FILE_PATH="coverage/faceai$faceai.coverage" NAME="faceai Coverage Results" MODIFIED="1531035234277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/faceai$chineseText.coverage" NAME="chineseText Coverage Results" MODIFIED="1531233358246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai" />
-    <SUITE FILE_PATH="coverage/faceai$file.coverage" NAME="file Coverage Results" MODIFIED="1531404756578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
+    <SUITE FILE_PATH="coverage/faceai$file.coverage" NAME="file Coverage Results" MODIFIED="1532243187100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
     <SUITE FILE_PATH="coverage/faceai$faceAi.coverage" NAME="faceAi Coverage Results" MODIFIED="1531034933801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/faceai$FaceRecognition.coverage" NAME="FaceRecognition Coverage Results" MODIFIED="1531642202076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/face_recognition" />
     <SUITE FILE_PATH="coverage/faceai$versionPut.coverage" NAME="versionPut Coverage Results" MODIFIED="1531036039265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai" />
-    <SUITE FILE_PATH="coverage/faceai$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1531232324637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
-    <SUITE FILE_PATH="coverage/faceai$image.coverage" NAME="image Coverage Results" MODIFIED="1531627756018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
     <SUITE FILE_PATH="coverage/faceai$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1531035951746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai" />
     <SUITE FILE_PATH="coverage/faceai$save_load.coverage" NAME="save_load Coverage Results" MODIFIED="1531405243338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
+    <SUITE FILE_PATH="coverage/faceai$compare.coverage" NAME="compare Coverage Results" MODIFIED="1531640787693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
+    <SUITE FILE_PATH="coverage/faceai$FaceRecognition__1_.coverage" NAME="FaceRecognition (1) Coverage Results" MODIFIED="1532243999101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/test/FaceRecognition" />
+    <SUITE FILE_PATH="coverage/faceai$chineseText.coverage" NAME="chineseText Coverage Results" MODIFIED="1531233358246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai" />
+    <SUITE FILE_PATH="coverage/faceai$FaceRecognition.coverage" NAME="FaceRecognition Coverage Results" MODIFIED="1532242680641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/face_recognition" />
+    <SUITE FILE_PATH="coverage/faceai$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1531232324637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
+    <SUITE FILE_PATH="coverage/faceai$image.coverage" NAME="image Coverage Results" MODIFIED="1531627756018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faceai/tool" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="compare.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceai/tool/compare.py">
+      <file leaf-file-name="FaceRecognition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faceai/FaceRecognition/FaceRecognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceai/tool/file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="e#60#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaceRecognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceai/face_recognition/FaceRecognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="230">
+              <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#1138#1518#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imtool.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/faceai/tool/imtool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -99,12 +77,14 @@
         <option value="$PROJECT_DIR$/faceai/tool/__init__.py" />
         <option value="$PROJECT_DIR$/faceai/chineseText.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/faceai/tool/save_load.py" />
         <option value="$PROJECT_DIR$/faceai/tool/image.py" />
-        <option value="$PROJECT_DIR$/faceai/tool/file.py" />
-        <option value="$PROJECT_DIR$/faceai/tool/compare.py" />
         <option value="$PROJECT_DIR$/faceai/face_recognition/FaceRecognition.py" />
+        <option value="$PROJECT_DIR$/faceai/tool/compare.py" />
+        <option value="$PROJECT_DIR$/faceai/tool/file.py" />
         <option value="$PROJECT_DIR$/faceai/tool/imtool.py" />
+        <option value="$PROJECT_DIR$/faceai/tool/save_load.py" />
+        <option value="$PROJECT_DIR$/faceai/test/FaceRecognition/FaceRecognition.py" />
+        <option value="$PROJECT_DIR$/faceai/FaceRecognition/FaceRecognition.py" />
       </list>
     </option>
   </component>
@@ -133,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +130,20 @@
               <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
               <item name="faceai" type="462c0819:PsiDirectoryNode" />
               <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="face_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceai" type="462c0819:PsiDirectoryNode" />
+              <item name="faceai" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceai" type="462c0819:PsiDirectoryNode" />
+              <item name="faceai" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
@@ -157,51 +151,10 @@
               <item name="faceai" type="462c0819:PsiDirectoryNode" />
               <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-              <item name="baby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (faceai) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (faceai) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="-586484117" type="70582d5e:PySkeletonsNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (faceai) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="-586484117" type="70582d5e:PySkeletonsNode" />
-              <item name="cv2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +179,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FaceRecognition">
+  <component name="RunManager" selected="Python.FaceRecognition (1)">
+    <configuration name="FaceRecognition (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="faceai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faceai/test/FaceRecognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faceai/test/FaceRecognition/FaceRecognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="FaceRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="faceai" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,40 +294,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="save_load" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="faceai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faceai/tool" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faceai/tool/save_load.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.faceai" />
       <item itemvalue="Python.compare" />
       <item itemvalue="Python.file" />
-      <item itemvalue="Python.save_load" />
       <item itemvalue="Python.FaceRecognition" />
       <item itemvalue="Python.image" />
+      <item itemvalue="Python.FaceRecognition (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FaceRecognition (1)" />
+        <item itemvalue="Python.file" />
         <item itemvalue="Python.FaceRecognition" />
         <item itemvalue="Python.compare" />
         <item itemvalue="Python.image" />
-        <item itemvalue="Python.save_load" />
-        <item itemvalue="Python.file" />
       </list>
     </recent_temporary>
   </component>
@@ -381,11 +334,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24114583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1734375" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -397,7 +351,6 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,22 +372,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/faceai/faceswap.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/emotion.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/colorize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/videoOpencv.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/faceai/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -537,13 +474,6 @@
     <entry file="file://$PROJECT_DIR$/faceai/img/compose/huzi-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/eye.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2127">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faceai/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -582,9 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/videoOpencv.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/faceai/emotion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -599,22 +526,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/chineseText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faceai/img/eye-1.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/tool/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,11 +541,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/Yuanyuan.Gao/2.jpg" />
     <entry file="file://$PROJECT_DIR$/images/Yuanyuan.Gao/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/faceai/opencv/hist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1683" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/68.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -642,16 +550,6 @@
     <entry file="file://$PROJECT_DIR$/faceai/img/face_recognition/Gates.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/faceRecognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#44#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-586484117/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -659,50 +557,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/tool/file.py">
+    <entry file="file://$PROJECT_DIR$/faceai/eye2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="-2178">
           <folding>
-            <element signature="e#60#69#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/eye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/faceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#44#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/compose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/opencv/hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/videoOpencv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/chineseText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faceai/tool/save_load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/face_recognition/param.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/tool/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceai/face_recognition/FaceRecognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#1138#1518#0" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faceai/tool/imtool.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/tool/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/face_recognition/param.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/FaceRecognition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/tool/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/tool/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <element signature="e#60#69#0" expanded="true" />
+            <element signature="e#298#956#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/test/FaceRecognition/FaceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceai/FaceRecognition/FaceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
