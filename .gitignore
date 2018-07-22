@@ -100,6 +100,11 @@ ENV/
 # mypy
 .mypy_cache/
 
+<<<<<<< HEAD
 #pycharm config files
 /.idea
 .idea/
+=======
+#train images
+images/
+>>>>>>> i18n
