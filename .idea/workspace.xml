@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="683">
-              <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+              <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -105,27 +105,7 @@
             <path>
               <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
               <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="FaceRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faceai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="faceai" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -625,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
-          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+          <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
         </state>
       </provider>
     </entry>
