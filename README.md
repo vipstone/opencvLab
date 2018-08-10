@@ -119,7 +119,7 @@
 
 ----------
 
-**视频人脸识别**
+**视频对象提取**
 
 ![](http://icdn.apigo.cn/opencv-hsv.gif)
 
