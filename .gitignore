@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#pycharm config files
+/.idea
+.idea/
+#train images
+images/
