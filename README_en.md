@@ -118,7 +118,7 @@ Translation for English Documentations are Working In Progress
 
 ----------
 
-**Face Recognition From Video**
+**Video Object Extraction**
 
 ![](http://icdn.apigo.cn/opencv-hsv.gif)
 

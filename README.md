@@ -119,7 +119,7 @@
 
 ----------
 
-**视频人脸识别**
+**视频对象提取**
 
 ![](http://icdn.apigo.cn/opencv-hsv.gif)
 
@@ -166,8 +166,8 @@ Tesseract模型训练方法
 
 [archersmind](https://github.com/archersmind)	
 	
-[rishab-sharma](https://github.com/rishab-sharma)
+[rishab-sharma](https://github.com/rishab-sharma) 
 
 # 微信打赏
 
-![微信打赏](http://icdn.apigo.cn/myinfo/wchat-pay.png)
+![微信打赏](http://icdn.apigo.cn/myinfo/wchat-pay.png) 
