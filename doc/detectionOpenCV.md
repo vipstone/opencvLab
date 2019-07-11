@@ -26,7 +26,7 @@
 ```
 import cv2
 
-filepath = "img/xingye-1.jpg"
+filepath = "img/xingye-1.png"
 img = cv2.imread(filepath)
 # 转换灰色
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -43,7 +43,7 @@ cv2.destroyAllWindows()
 ``` 
 import cv2
 
-filepath = "img/xingye-1.jpg"
+filepath = "img/xingye-1.png"
 img = cv2.imread(filepath)  # 读取图片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # 转换灰色
 x = y = 10  # 坐标
@@ -64,7 +64,7 @@ cv2.destroyAllWindows()  # 释放所有的窗体资源
 ```
 import cv2
 
-filepath = "img/xingye-1.jpg"
+filepath = "img/xingye-1.png"
 img = cv2.imread(filepath)  # 读取图片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # 转换灰色
 

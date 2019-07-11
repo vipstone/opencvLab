@@ -163,7 +163,11 @@ Dlib模型训练方法
 Tesseract模型训练方法
 
 # 贡献者名单（特别感谢）	
-	
+
 [archersmind](https://github.com/archersmind)	
 	
-[rishab-sharma](https://github.com/rishab-sharma)
+[rishab-sharma](https://github.com/rishab-sharma) 
+
+# 微信打赏
+
+![微信打赏](http://icdn.apigo.cn/myinfo/wchat-pay.png) 
