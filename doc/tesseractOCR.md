@@ -22,8 +22,8 @@ Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时�
 使用命令，查看版本号和支持语言：
 
 >cd C:\Users\Administrator\AppData\Local\Tesseract-OCR
->tesseract -v #查看Tesseract-OCR的版本
->tesseract --list-langs　　#查看Tesseract-OCR支持语言，下文中的语言只能从这里的结果选取
+>tesseract -v 
+>tesseract --list-langs　　#查看Tesseract-OCR的版本和支持语言，下文中的语言只能从这里的结果选取
 
 三、配置tesseract运行文件
 
