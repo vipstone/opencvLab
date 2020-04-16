@@ -52,3 +52,4 @@ print(text)
 2020.4.16
 采用Windows安装包选择中文简体+中文繁体语言最后安装失败，仅成功安装eng和osd语言。
 解决办法参考：https://blog.csdn.net/weixin_43031092/article/details/105561486
+最新打包的中文语言包：https://pan.baidu.com/s/11vlNct2oxO_ATfsBhyGv8Q 提取码：fi33
