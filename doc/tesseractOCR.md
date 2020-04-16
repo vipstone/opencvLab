@@ -48,3 +48,11 @@ print(text)
 ```
 
 作为非常优秀的Ocr识别库，tesseract当然可以训练自己的数据模型，从而达到为我所用的目的，后续文章会介绍如何训练自己的文字识别库。
+
+2020.4.16
+采用Windows安装包选择中文简体+中文繁体语言最后安装失败，仅成功安装eng和osd语言。
+解决办法：
+https://github.com/tesseract-ocr/tessdoc/blob/master/Data-Files.md
+1.在上面的网址下载语言压缩包
+2.将压缩包解压到对应目录，如C:\Program Files\Tesseract-OCR\tessdata
+参考：https://github.com/UB-Mannheim/tesseract/wiki/Install-additional-language-and-script-models
