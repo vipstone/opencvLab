@@ -22,8 +22,8 @@ Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时�
 使用命令，查看版本号和支持语言：
 
 >cd C:\Users\Administrator\AppData\Local\Tesseract-OCR
->tesseract -v
->tesseract --list-langs　　#查看Tesseract-OCR支持语言
+>tesseract -v 
+>tesseract --list-langs　　#查看Tesseract-OCR的版本和支持语言，下文中的语言只能从这里的结果选取
 
 三、配置tesseract运行文件
 
@@ -31,7 +31,7 @@ C:\Python36\Lib\site-packages\pytesseract\pytesseract.py
 找到文件：
 >tesseract_cmd = 'tesseract'
 
-修改为：
+修改为（根据刚才的安装目录修改）：
 >tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
 
 四、代码识别
@@ -48,3 +48,8 @@ print(text)
 ```
 
 作为非常优秀的Ocr识别库，tesseract当然可以训练自己的数据模型，从而达到为我所用的目的，后续文章会介绍如何训练自己的文字识别库。
+
+2020.4.16
+采用Windows安装包选择中文简体+中文繁体语言最后安装失败，仅成功安装eng和osd语言。
+解决办法参考：https://blog.csdn.net/weixin_43031092/article/details/105561486
+最新打包的中文语言包：https://pan.baidu.com/s/11vlNct2oxO_ATfsBhyGv8Q 提取码：fi33
