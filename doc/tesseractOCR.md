@@ -22,8 +22,8 @@ Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时�
 使用命令，查看版本号和支持语言：
 
 >cd C:\Users\Administrator\AppData\Local\Tesseract-OCR
->tesseract -v
->tesseract --list-langs　　#查看Tesseract-OCR支持语言
+>tesseract -v #查看Tesseract-OCR的版本
+>tesseract --list-langs　　#查看Tesseract-OCR支持语言，下文中的语言只能从这里的结果选取
 
 三、配置tesseract运行文件
 
@@ -31,7 +31,7 @@ C:\Python36\Lib\site-packages\pytesseract\pytesseract.py
 找到文件：
 >tesseract_cmd = 'tesseract'
 
-修改为：
+修改为（根据刚才的安装目录修改）：
 >tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
 
 四、代码识别
